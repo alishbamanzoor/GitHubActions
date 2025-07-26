@@ -7,4 +7,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run Django Unit Tests
         run: pip3 install --user django
-          python3 manage.py test
+          python manage.py test
+# to test this we will change the and back to or(i.e error) in is_valid_flight() in views.py
